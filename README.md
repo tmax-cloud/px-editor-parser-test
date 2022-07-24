@@ -8,7 +8,7 @@ npm run start # 실행
 # 개발자도구 - source - setting - enable JS loadmap 해제
 ```
 
-### 간략 구조 설명
+### 간략 구조 설명 
 
 ```.
 ├── src
@@ -41,9 +41,7 @@ npm run start # 실행
 
 
 
-TDLR)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ot9c24vEWoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+TDLR) [확인용 유튜브 링크](https://youtu.be/ot9c24vEWoI)
 
 
 
