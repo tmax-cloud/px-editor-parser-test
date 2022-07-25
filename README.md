@@ -38,6 +38,7 @@ npm run start # 실행
 
 - ASTgen
 - CodeGen
+- auto-suggest
 
 
 
