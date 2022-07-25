@@ -1,4 +1,4 @@
-// Generated from Java9.g4 by ANTLR 4.7.3-SNAPSHOT
+// Generated from ./Java9Parser.g4 by ANTLR 4.9.0-SNAPSHOT
 
 
 import { ParseTreeListener } from "antlr4ts/tree/ParseTreeListener";
@@ -254,7 +254,7 @@ import { IdentifierContext } from "./Java9Parser";
  * This interface defines a complete listener for a parse tree produced by
  * `Java9Parser`.
  */
-export interface Java9Listener extends ParseTreeListener {
+export interface Java9ParserListener extends ParseTreeListener {
 	/**
 	 * Enter a parse tree produced by `Java9Parser.literal`.
 	 * @param ctx the parse tree
@@ -1785,15 +1785,15 @@ export interface Java9Listener extends ParseTreeListener {
 	exitStatementWithoutTrailingSubstatement?: (ctx: StatementWithoutTrailingSubstatementContext) => void;
 
 	/**
-	 * Enter a parse tree produced by `Java9Parser.emptyStatement`.
+	 * Enter a parse tree produced by `Java9Parser.emptyStatement_`.
 	 * @param ctx the parse tree
 	 */
-	enterEmptyStatement?: (ctx: EmptyStatementContext) => void;
+	enterEmptyStatement_?: (ctx: EmptyStatementContext) => void;
 	/**
-	 * Exit a parse tree produced by `Java9Parser.emptyStatement`.
+	 * Exit a parse tree produced by `Java9Parser.emptyStatement_`.
 	 * @param ctx the parse tree
 	 */
-	exitEmptyStatement?: (ctx: EmptyStatementContext) => void;
+	exitEmptyStatement_?: (ctx: EmptyStatementContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `Java9Parser.labeledStatement`.
@@ -2950,4 +2950,3 @@ export interface Java9Listener extends ParseTreeListener {
 	 */
 	exitIdentifier?: (ctx: IdentifierContext) => void;
 }
-
