@@ -4,6 +4,9 @@ const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
 
 module.exports = {
   mode: "development",
+  devServer: {
+    allowedHosts: "all",
+  },
   entry: {
     app: "./src/index.tsx",
     "editor.worker": "monaco-editor-core/esm/vs/editor/editor.worker.js",

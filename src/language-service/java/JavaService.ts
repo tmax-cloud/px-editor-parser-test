@@ -15,6 +15,8 @@ export class JavaService extends LanguageService<BlockContext> {
     const inputStream = CharStreams.fromString('{' + code + '}');
     const lexer = new Java9Lexer(inputStream);
     const tokenStream = new CommonTokenStream(lexer);
+    console.log(tokenStream);
+
     const parser = new Java9Parser(tokenStream);
     return parser.block();
   }
