@@ -10,6 +10,20 @@ body,
 .title {
   height: 50px;
 }
+.playground {
+  display: flex;
+  height: calc(100% - 50px);
+}
+.editor {
+  height: 100%;
+  width: 50%;
+
+}
+.parser {
+  margin-left: 10px;
+  height: 100%;
+  width: 40%;
+}
 
 .editor-container {
   height: calc(100% - 50px);
