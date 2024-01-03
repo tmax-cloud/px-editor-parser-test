@@ -13,6 +13,7 @@ body,
 .playground {
   display: flex;
   height: calc(100% - 50px);
+  overflow: auto;
 }
 .editor {
   height: 100%;
@@ -27,6 +28,5 @@ body,
 
 .editor-container {
   height: calc(100% - 50px);
-  overflow: hidden;
   width: 100%;
 }
